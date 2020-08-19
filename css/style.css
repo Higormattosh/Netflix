@@ -229,7 +229,7 @@ main > .movies {
   position: relative;
   margin-bottom: 2rem;
 }
-main > .movies #lightSlider {
+main > .movies #series {
   height: auto;
   padding: 0.5rem 0;
 }
