@@ -17,6 +17,7 @@ header {
   background: transparent;
   padding: 0 1.5rem;
 
+  overflow: hidden;
   margin-top: 0px;
   background: linear-gradient(to top, transparent -1%, #000 60%);
   width: 100%;
