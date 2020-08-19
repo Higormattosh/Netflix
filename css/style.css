@@ -260,6 +260,11 @@ footer {
 }
 
 @media (min-width: 0px) and (max-width: 400px) {
+  
+  header{
+    position: fixed;
+  }
+  
   main > .banner > .infomation > h1 {
     color: #fff;
     font-size: 1rem;
@@ -290,6 +295,7 @@ footer {
   
   header {
     margin-top: 0px;
+    position: fixed;
   }
   
   main > .featured > ul {
