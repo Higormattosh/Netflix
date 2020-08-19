@@ -265,6 +265,7 @@ footer {
 
   header {
     padding: 0 0.6rem;
+    margin-top: 0px;
   }
 
   main > .featured > ul {
