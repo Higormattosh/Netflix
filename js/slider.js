@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("#lightSlider").lightSlider({
+  $("#series").lightSlider({
     item: 4,
     autoWidth: false,
     slideMove: 1, // slidemove will be 1 if loop is true
@@ -24,7 +24,7 @@ $(document).ready(function () {
       },
     ],
   });
-  $("#lightSlider2").lightSlider({
+  $("#movies").lightSlider({
     item: 4,
     autoWidth: false,
 
