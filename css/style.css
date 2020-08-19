@@ -18,12 +18,15 @@ header {
   padding: 0 1.5rem;
 
   background: linear-gradient(to top, transparent -1%, #000 60%);
-  overflow-x: auto;
-  overflow-y: auto;
   margin-top: 0rem;
   width: 100%;
   z-index: 2;
 }
+
+@supports (-webkit-touch-callout: none) {
+  header {
+    margin-top: -1rem;
+  }
 
 header > ul {
   list-style: none;
