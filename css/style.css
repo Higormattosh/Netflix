@@ -106,7 +106,7 @@ main > .banner > .infomation {
 main > .banner > .infomation > h1 {
   color: #fff;
   font-size: 1.2rem;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   font-weight: 300;
   transition: 0.3s;
 }
