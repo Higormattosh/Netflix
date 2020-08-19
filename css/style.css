@@ -28,6 +28,7 @@ header {
     margin-top: -1rem;
   }
 
+}
 header > ul {
   list-style: none;
   display: flex;
