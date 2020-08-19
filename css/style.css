@@ -282,6 +282,11 @@ footer {
 }
 
 @media (min-width: 480px) and (max-width: 800px) {
+  
+  header {
+    margin-top: 0px;
+  }
+  
   main > .featured > ul {
     grid-template-columns: repeat(2, 1fr);
   }
