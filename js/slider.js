@@ -51,6 +51,7 @@ $(document).ready(function () {
   });
 });
 
+<<<<<<< HEAD
 Modernizr.on("webp", function (result) {
   if (result) {
     $(".img-webp").each(function () {
@@ -61,4 +62,16 @@ Modernizr.on("webp", function (result) {
       this.src = $(this).data("original");
     });
   }
+=======
+Modernizr.on('webp', function (result) {
+    if (result) {
+        $('.img-webp').each(function () {
+            this.src = $(this).data('webp');
+        });
+    } else {
+        $('.img-webp').each(function () {
+            this.src = $(this).data('original');
+        });
+    }
+>>>>>>> 680176ff4c29858c89d74f585ff3629c0ee32bc8
 });
