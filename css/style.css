@@ -93,7 +93,7 @@ header {
 }
 @supports (-webkit-touch-callout: none) {
   header {
-    margin-top: -2rem !important;
+    margin-top: -1.5rem !important;
   }
 }
 header > ul {
